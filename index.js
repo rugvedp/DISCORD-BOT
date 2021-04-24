@@ -27,7 +27,7 @@ for (const file of eventFiles) {
 }
 client.once('ready', () => {
 	console.log('Bot is online');
-	client.user.setPresence({ activity: { name: 'Use $help' }, status: 'online' });
+	client.user.setPresence({ activity: { name: 'Use -help' }, status: 'online' });
 	welcome(client)
 });
 client.on('message', async message => {
