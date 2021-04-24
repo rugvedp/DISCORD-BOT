@@ -1,4 +1,4 @@
-const tictactoe = require('reconlx');
+const  {tictactoe } = require('reconlx');
 module.exports = {
 	name: 'tictactoe',
 	description: 'Play games',
@@ -10,7 +10,5 @@ module.exports = {
             player_two: member,
             message: message
         })
-
-
 	},
 };
