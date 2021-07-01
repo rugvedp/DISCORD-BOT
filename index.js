@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const fs = require('fs');
-const  Console  = require('console');
 require('dotenv').config();
 const welcome = require('./events/guildMemberAdd');
 const prefix = '-';

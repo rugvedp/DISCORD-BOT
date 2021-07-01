@@ -2,25 +2,22 @@ const Discord = require('discord.js');
 
 module.exports = client => {
     client.on('guildMemberAdd', async (member) => {
-        const welcomechannel = member.guild.channels.cache.get('823431783642038282');
-        const ruleschannel = member.guild.channels.cache.get('805241859722969088');
-        const ammounment = member.guild.channels.cache.get('805241859269197911');
-        const roles = member.guild.channels.cache.get('805837596785639434');
-        const continent = member.guild.channels.cache.get('824303505803837440');
-        const giveaway = member.guild.channels.cache.get('805241859961651205');
+        const ruleschannel = "CHannel ID HERE";
+        const ammounment = "Channel ID HERE";
+        const welcomechannel = "welcome Channel ID HERE";
         let embed = new Discord.MessageEmbed()
-            .setAuthor(`┃━━━CG COMMUNITY━━━┃`, 'https://cdn.discordapp.com/icons/805241859252944967/a_6e3bedf49bc756344faa4d608d77a8a7.png?size=512')
+            .setTitle(`┃━━━COMMUNITY━━━┃`)
             .setThumbnail(member.user.displayAvatarURL())
             .setDescription(`━─━─━─━─≪✠≫─━─━─━─━─
-    😀 Hello <@${member.user.id}>. Welcome to CG Community
+    😀 Hello <@${member.user.id}>. Welcome to Community
     ━─━─━─━─≪✠≫─━─━─━─━─
     ┏━━━━━━━━━━°❀•°🎗️🎗️°•°━━━➣
-    ☛ First check ${ruleschannel} & ${giveaway}
-    ☛ Take your roles from ${roles} & ${continent} to get ping at giveaway
+    ☛ First check ${ruleschannel} 
+    ☛ Take your roles from ${roles} to get ping at giveaway
     ☛ Stay tuned in ${ammounment} for server updates
     ┗━━━━━━━━━━°❀•°🎗️🎗️°•°━━━➣`)
             .setColor('RANDOM')
-            .setImage("https://cdn.discordapp.com/attachments/822504274852446258/825209252867866635/ezgif.com-gif-maker_23.gif")
+            .setImage("https://media.tenor.com/images/43f0d78cce25b22b6b0a316b28ab929e/tenor.gif")
             .setTimestamp()
         await welcomechannel.send(embed);
     })
