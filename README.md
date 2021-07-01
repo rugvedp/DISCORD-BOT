@@ -5,11 +5,7 @@ Basic discord bot in javascript
 
 ## Installation
 
-Clone repository to your PC  
-
-```bash
-pip install foobar
-```
+Clone repository to your PC  or just download a single file
 
 ## Usage
 
