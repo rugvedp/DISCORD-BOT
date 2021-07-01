@@ -10,7 +10,7 @@ Clone repository to your PC  or just download a single file
 ## Usage
 
 ```python
-Go to .env
+
 Enter your bot token (https://discord.com/developers/applications)
 And then run bot using 'node index.js'
 ```
