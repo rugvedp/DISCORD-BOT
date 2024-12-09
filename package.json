@@ -9,7 +9,7 @@
     "discord": "^0.8.2",
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
-    "reconlx": "^1.2.41"
+    "reconlx": "^2.5.6"
   },
   "devDependencies": {},
   "scripts": {
